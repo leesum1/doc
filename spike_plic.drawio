@@ -1,14 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T05:54:33.974Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="AkW36PFCXEYIaA6XmWid" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T06:03:49.179Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="QhTHJKdcd5yxwv1_GgVa" version="21.1.5" type="github">
   <diagram name="第 1 页" id="aTYlZIreoIug5KQvOYnU">
-    <mxGraphModel dx="1195" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-1" value="LEVEL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="470" width="120" height="60" as="geometry" />
+        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(36, 41, 46); font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Note Sans&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 16px;&quot;&gt;uint32_t level[&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Note Sans&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 16px; color: rgb(111, 66, 193);&quot;&gt;PLIC_MAX_DEVICES&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Note Sans&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 16px; color: rgb(215, 58, 73);&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Note Sans&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 16px; color: rgb(0, 92, 197);&quot;&gt;32&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(36, 41, 46); font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Note Sans&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 16px;&quot;&gt;];&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="410" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-2" value="Pending" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="585" width="120" height="60" as="geometry" />
+        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-2" value="&lt;div style=&quot;color: rgb(36, 41, 46); background-color: rgb(255, 255, 255); font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Note Sans&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;uint32_t pending[&lt;span style=&quot;color: #6f42c1;&quot;&gt;PLIC_MAX_DEVICES&lt;/span&gt;&lt;span style=&quot;color: #d73a49;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;color: #005cc5;&quot;&gt;32&lt;/span&gt;];&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lsuk5oYhEvi9fWNuQB_E-4" target="Lsuk5oYhEvi9fWNuQB_E-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-4" value="&lt;div style=&quot;color: rgb(36, 41, 46); background-color: rgb(255, 255, 255); font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Note Sans&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;set_interrupt_level(&lt;span style=&quot;color: #005cc5;&quot;&gt;uint32_t&lt;/span&gt; &lt;span style=&quot;color: #e36209;&quot;&gt;id&lt;/span&gt;, &lt;span style=&quot;color: #d73a49;&quot;&gt;int&lt;/span&gt; &lt;span style=&quot;color: #e36209;&quot;&gt;lvl&lt;/span&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-5" value="Per context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="645" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lsuk5oYhEvi9fWNuQB_E-6" value="PLIC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
